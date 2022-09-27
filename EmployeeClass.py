@@ -1,5 +1,6 @@
 #Write a class named Employee that holds the following data about an employee in attributes: name, ID number, department, job title and monthly salary.The Employee class’s __init__ method should accept an argument for each attribute. The Employee class should have accessor methods for each attribute. All attribute should be hidden.
 
+
 class Employee:
     def __init__ (self, name, id, department, title, salary):
         self.__name = name
@@ -36,4 +37,3 @@ class Employee:
 
     def __str__(self):
         return "Name: " + self.__name + "\nID Number: " + self.__id + "\nDepartment: " + self.__department + '\nTitle: ' + self.__title + 'Monthly Salary: ' + self.__salary 
-        
