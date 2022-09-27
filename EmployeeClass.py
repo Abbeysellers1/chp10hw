@@ -9,20 +9,20 @@ class Employee:
         self.__title = title
         self.__salary = salary
     
-    def set_name(self, name):
-        self.__name = name
+   # def set_name(self, name):
+   #     self.__name = name
     
-    def set_id(self, id):
-        self.__id = id
+   # def set_id(self, id):
+   #     self.__id = id
     
-    def set_department(self, department):
-        self.__department = department
+   # def set_department(self, department):
+   #     self.__department = department
     
-    def set_title(self, title):
+   # def set_title(self, title):
         self.__title = title
     
-    def set_salary(self, salary):
-        self.__salary = salary
+   # def set_salary(self, salary):
+   #     self.__salary = salary
 
     def get_name(self):
         return self.__name
