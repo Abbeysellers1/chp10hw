@@ -31,4 +31,4 @@ class Payroll:
         return self.__id
 
     def __str__(self):
-        return "Description: " + self.__description + "Date: " + self.__date + "Charge Amount: " + self.__charge+ "Employee ID: " + self.__id
+        return self.__description + self.__date + self.__charge+ self.__id
