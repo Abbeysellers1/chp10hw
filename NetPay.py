@@ -9,7 +9,8 @@ import PayrollDeductionClass as pdc
 
 emp_jim= ec.Employee('Jimmy Smith', '58475', 'Information Systems', 'Developer', '6800.00')
 print('Employee Class')
-
+print(emp_jim)
+print()
 print(emp_jim.get_name(), emp_jim.get_id(), emp_jim.get_department(), emp_jim.get_title(), emp_jim.get_salary())
 
 
@@ -35,11 +36,12 @@ jim_netpay= float(emp_jim.get_salary())-float(jim_totalpay)
 
 netpay= '$'+ str(jim_netpay)
 
-
-
-
 print()
+
+
+
 print('Payroll Deductions')
+
 print("Description      ", "Date     ", 'Charge', 'EmployeeID')
 print(pay_fc1)
 print(pay_gc)

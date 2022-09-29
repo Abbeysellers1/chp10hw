@@ -9,20 +9,6 @@ class Employee:
         self.__title = title
         self.__salary = salary
     
-   # def set_name(self, name):
-   #     self.__name = name
-    
-   # def set_id(self, id):
-   #     self.__id = id
-    
-   # def set_department(self, department):
-   #     self.__department = department
-    
-   # def set_title(self, title):
-   #     self.__title = title
-    
-   # def set_salary(self, salary):
-   #     self.__salary = salary
 
     def get_name(self):
         return self.__name
@@ -36,4 +22,4 @@ class Employee:
         return self.__salary
 
     def __str__(self):
-        return "Name: " + self.__name + "\nID Number: " + self.__id + "\nDepartment: " + self.__department + '\nTitle: ' + self.__title + 'Monthly Salary: ' + self.__salary 
+        return "Name: " + self.__name + "\nID Number: " + self.__id + "\nDepartment: " + self.__department + '\nTitle: ' + self.__title + '\nMonthly Salary: ' + self.__salary 
